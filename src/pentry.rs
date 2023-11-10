@@ -11,6 +11,7 @@ pub struct ServiceInfo {
     pub service: String,
     pub username: String,
     pub password: String,
+    // pub(crate) id: Option<!>,
 }
 impl ServiceInfo {
     pub fn new(service: String, username: String, password: String) -> Self {
